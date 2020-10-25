@@ -1,0 +1,45 @@
+*{
+	box-sizing: border-box;
+}
+
+#title{
+	font-family: arial;
+	font-size: 2em;
+	text-align: center;
+}
+
+#container{
+	position: absolute;
+	width: 100%;
+}
+
+.text{
+	position: relative;
+	top: 10px;
+}
+
+.region1, .region2, .region3 {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-family: arial;
+	margin: 0px;
+	padding: 3px;
+	width: 150px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #FF7D33;
+	border: 2px solid black;
+}
+
+@media (min-width: 992px){
+	.col-lg-4{
+		position: relative;
+		width: 30%;
+		float: left;
+		border: 2px solid black;
+		margin: 2px;
+		padding: 10px;
+	}
+}
+
